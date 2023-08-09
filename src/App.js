@@ -6,7 +6,7 @@ export default function App() {
         <div className="grid grid-cols-4">
             <div className="space-y-4">
                 <div>
-                    <Button primary>
+                    <Button primary onClick={()=>{console.log('entro')}}>
                         <GoBellFill />
                         Button 1
                     </Button>
