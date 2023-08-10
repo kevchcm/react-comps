@@ -26,11 +26,14 @@ function Button({
             'text-green-500': outline && success,
             'text-yellow-400': outline && warning,
             'text-red-500': outline && danger
-        })
+        }),
+        rest.className,
     );
 
+    console.log(classes)
+
     return (
-        <button className={classes} {...rest}>
+        <button {...rest} className={classes}>
             {children}
         </button>
     )
