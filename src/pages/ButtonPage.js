@@ -6,7 +6,7 @@ export default function ButtonPage() {
         <div className="grid grid-cols-4">
             <div className="space-y-4">
                 <div>
-                    <Button primary onClick={()=>{console.log('entro')}}>
+                    <Button primary>
                         <GoBellFill />
                         Button 1
                     </Button>

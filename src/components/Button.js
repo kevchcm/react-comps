@@ -30,8 +30,6 @@ function Button({
         rest.className,
     );
 
-    console.log(classes)
-
     return (
         <button {...rest} className={classes}>
             {children}
